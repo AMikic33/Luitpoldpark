@@ -14,10 +14,10 @@ body {
 .navbar {
     width: 100%;
     background-color: #999999;
+    margin-bottom: 0!important;
 }
 
 .menu {
-    text-decoration: none;
     text-transform: uppercase;
     list-style-type: none;
     letter-spacing: 5px;
@@ -65,6 +65,7 @@ body {
 #slider figure img {
     float: left;
     width: 20%;
+    height: 40vw;
 }
 
 @keyframes slider {
@@ -95,4 +96,28 @@ body {
     100% {
         left: -400%;
     }
+}
+
+/* footer */
+
+footer {
+    height: 100px;
+}
+
+#inner-footer {
+    text-align: center;
+}
+#inner-footer li {
+    display: inline;
+}
+
+#inner-footer i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 2%;
+    color: #228B22;
+}
+
+#inner-footer a:hover {
+  color: #9ACD32;
 }
