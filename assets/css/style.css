@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: roboto;
+}
+
+/* header */
+
+.navbar {
+    width: 100%;
+    background-color: #999999;
+}
+
+.menu {
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    letter-spacing: 5px;
+    font-size: 150%;
+}
+
+.menu a {
+    float: left;
+    text-align: center;
+    padding: 11px;
+    text-decoration: none;
+    color: #228B22;
+}
+
+.navbar a:hover {
+  color: #9ACD32;
+  
+}
+
+.active {
+    color: #9ACD32;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/* slider */
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img {
+    float: left;
+    width: 20%;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
