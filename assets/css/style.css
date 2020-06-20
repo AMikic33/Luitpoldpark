@@ -1,44 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     border: 0;
-}
+} */
 body {
     font-family: roboto;
+    background-color: #FFFAF0;
 }
 
 /* header */
 
 .navbar {
-    width: 100%;
-    background-color: #999999;
-    margin-bottom: 0!important;
+    overflow: auto;
+    background-color: #FFFAF0;
 }
 
-.menu {
+.navbar-light .navbar-brand {
     text-transform: uppercase;
-    list-style-type: none;
-    letter-spacing: 5px;
-    font-size: 150%;
+    font-size: 1rem;
+    color: #8FBC8F;
 }
 
-.menu a {
-    float: left;
-    text-align: center;
-    padding: 11px;
-    text-decoration: none;
-    color: #228B22;
+#navbar a:hover {
+    color: #556B2F;
 }
 
-.navbar a:hover {
-  color: #9ACD32;
-  
+.navbar-light .navbar-nav .nav-link  {
+    text-transform: uppercase;
+    color: #8FBC8F;
+    font-size: 1rem;
 }
 
-.active {
-    color: #9ACD32;
+#navbarNavAltMarkup a:hover {
+  color: #556B2F;
+}
+
+.navbar-light .navbar-nav .active-link {
+  color: #556B2F;
 }
 
 @media screen and (max-width: 500px) {
@@ -48,10 +48,15 @@ body {
   }
 }
 
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
 /* slider */
 
 #slider {
     overflow: hidden;
+    margin-top: 60px;
 }
 
 #slider figure {
@@ -65,7 +70,7 @@ body {
 #slider figure img {
     float: left;
     width: 20%;
-    height: 40vw;
+    height: 50vw;
 }
 
 @keyframes slider {
@@ -97,6 +102,27 @@ body {
         left: -400%;
     }
 }
+/* text */
+
+h1 {
+    text-transform: uppercase;
+    color: #8FBC8F;
+    margin-top: 15px;
+    letter-spacing: 4px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #8FBC8F;
+    font-size: 150%;
+}
+
+p {
+    text-align: center;
+    margin: 25px 75px 15px;
+}
 
 /* footer */
 
@@ -107,6 +133,7 @@ footer {
 #inner-footer {
     text-align: center;
 }
+
 #inner-footer li {
     display: inline;
 }
@@ -115,9 +142,6 @@ footer {
     font-size: 150%;
     margin: 1%;
     padding: 2%;
-    color: #228B22;
+    color: #8FBC8F;
 }
 
-#inner-footer a:hover {
-  color: #9ACD32;
-}
