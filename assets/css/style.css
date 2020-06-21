@@ -172,8 +172,14 @@ p .fa {
 }
 
 .gallery img:hover {
-    filter: greyscale(100%);
     transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 800px) {
+    .gallery img {
+        width: 90%;
+    }
 }
 
 
