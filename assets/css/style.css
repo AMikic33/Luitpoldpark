@@ -10,7 +10,7 @@ body {
     background-color: #FFFAF0;
 }
 
-/* header */
+                            /* header */
 
 .navbar {
     overflow: auto;
@@ -53,7 +53,7 @@ body {
     border-color: transparent;
 }
 
-/* slider */
+                            /* slider */
 
 #slider {
     overflow: hidden;
@@ -103,7 +103,7 @@ body {
         left: -400%;
     }
 }
-/* home page*/
+                                /* home page*/
 
 h1 {
     text-transform: uppercase;
@@ -125,8 +125,15 @@ p {
     margin: 25px 75px 15px;
 }
 
+                                /* activities */
 
-/* beer_gardens*/
+#activities {
+    background-color: #556B2F;
+    margin-top: 50px;
+}
+
+
+                                /* beer_gardens*/
 
 .card {
     margin-left: 15px;
@@ -155,7 +162,22 @@ p .fa {
     font-size: 1.5rem;
 }
 
-/* footer */
+                                    /* gallery */
+
+.gallery img {
+    width: 30%;
+    padding: 15px;
+    margin-left: 15px;
+    transition: 1s;
+}
+
+.gallery img:hover {
+    filter: greyscale(100%);
+    transform: scale(1.1);
+}
+
+
+                                    /* footer */
 
 footer {
     height: 100px;
