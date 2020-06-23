@@ -1,39 +1,47 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Luitpoldpark Website
 
-Welcome redgirl33,
+This project is is to create a website for the Luitpold park in Munich. The website provides a short description of the park, its location, and its history. 
+It also contains a list of all popular activities and beer gardens in the park. Last but not least, the website has a gallery page included, showcasing all beauties of the park in different seasons. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
-## Gitpod Reminders
+### UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The project was designed to promote the Luitpold park, to tourists and the locals alike. Throughout the site we have a visible navbar with it pages clearly marked, which enables the visitors to chose straight away what they're interested in, without having to go trough all the pages.
+A lot of tourists love to visit historical marks when in a foreign city. That's why our website includes a short but powerful story of the park, with instructions of how to get to the park. 
+Together with the historical story of the park, the home page contains a slide show of the park in different seasons, showing a different side of the park to the tourists.
+The second page lists all activities one is able to do in the park, whether for laisure or sport. This way, the website incourages its visitors to visit the park and enjoy their free time in the open.
+The Beer Garden page shows the beer gardens that are in the park. It is a fast way to find a certain beer garden's address, working hours and phone number. At the bottom we have included a youtube video of a traditinal german beer garden, to give a sneak peek to the tourists of what to expect.
+The Gallery page serves as an inspiration to the tourists to come and visit the Luitpoldpark, while at the same time reminds the locals of the beautiful park right in their neighbourhood.
+The website also contains social media links to facebook, youtube and instagram, where the visitors can further research all the park's amenities. 
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+#### User Stories
 
-Another blue button should appear to click: *Open Browser*.
+##### Munich residents
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- as a website visitor and a resident of Munich, I want to have all possible park's activities listed on one spot.
+- as a website visitor and a resident of Munich, I want to be able to easily find a local beer garden's opening hours and a phone number.
+- as a website visitor and a resident of Munich, I like to be reminded of all the posibilities that the park is offering.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+##### tourists
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+- as a tourist, I want to read about interesting history of the park I'm visiting.
+- as a tourist, I want to see what the park looks like at a different time of a year.
+- as a tourist, I want to know what can I do in the park, so I can plan my trip ahead. 
+- as a tourist, I want to know the working hours of the beer gardens where to find them.
+- as a tourist, I want to know a bit more about the beer gardens before I go to visit.
+- as a tourist, I want to see the photos of the place I'm about to visit.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+#### Site Maps
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+!.[desktop_and_mobile_view_index.html].(/assets/img/wireframes/index.pdf "index.html page for desktop and mobile view")
+!.[].()
+!.[].()
+!.[].()
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
 
-Happy coding!
