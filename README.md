@@ -37,9 +37,6 @@ The website also contains social media links to facebook, youtube and instagram,
 #### Site Maps
 
 !.[desktop_and_mobile_view_index.html].(/assets/img/wireframes/index.pdf "index.html page for desktop and mobile view")
-!.[].()
-!.[].()
-!.[].()
 
 
 
