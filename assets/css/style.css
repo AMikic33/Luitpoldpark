@@ -7,39 +7,40 @@
 } */
 body {
     font-family: roboto;
-    background-color: #FFFAF0;
+    background-color: #FEF9E7;
 }
 
                             /* header */
 
 .navbar {
     overflow: auto;
-    background-color: #FFFAF0;
+    background-color: #918450;
+    margin-bottom: 0px !important;
 }
 
 .navbar-light .navbar-brand {
     text-transform: uppercase;
     font-size: 1rem;
-    color: #8FBC8F;
+    color: #a41623;
     margin-right: .5rem;
 }
 
 #navbar a:hover {
-    color: #556B2F;
+    color: #FEF9E7;
 }
 
 .navbar-light .navbar-nav .nav-link  {
     text-transform: uppercase;
-    color: #8FBC8F;
+    color: #a41623;
     font-size: 1rem;
 }
 
 #navbarNavAltMarkup a:hover {
-  color: #556B2F;
+  color: #FEF9E7;
 }
 
 .navbar-light .navbar-nav .active-link {
-  color: #556B2F;
+  color: #FEF9E7;
 }
 
 @media screen and (max-width: 500px) {
@@ -57,7 +58,7 @@ body {
 
 #slider {
     overflow: hidden;
-    margin-top: 60px;
+    margin-top: 51px;
 }
 
 #slider figure {
@@ -107,7 +108,7 @@ body {
 
 h1 {
     text-transform: uppercase;
-    color: #c05805;
+    color: #918450;
     margin-top: 15px;
     letter-spacing: 4px;
 }
@@ -122,7 +123,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #c05805;
+    color: #918450;
     font-size: 150%;
 }
 
@@ -134,8 +135,8 @@ p {
                                 /* activities */
 
 #activities {
-    background-color: #8FBC8F;
-    /* margin-top: 51px; */
+    background-color: #a41623;
+    margin-top: 51px;
     padding-bottom: 2em;
     padding-top: 2em;
 }
@@ -146,24 +147,21 @@ p {
 .card {
     margin-left: 15px;
     margin-right: 15px;
-    margin-top: 60px;
-    background-color: #FFFAF0;
     display: inline-block;
 }
 
 .card-title {
     text-align: center;
     margin-bottom: 5px;
-    color: #c05805;
+    color: #262626;
 }
 
 .card-body {
-    background-color: white;
+    background-color: #fff;
 }
 
 p {
     margin: 10px 12px 15px;
-    color: #c05805;
 }
 
 br {
@@ -176,11 +174,13 @@ p .fa {
 
                                     /* gallery */
 
+
 .gallery img {
     width: 30%;
     padding: 15px;
     margin-left: 15px;
     transition: 1s;
+    padding-top: 60px;
 }
 
 .gallery img:hover {
@@ -213,7 +213,7 @@ footer {
     font-size: 150%;
     margin: 1%;
     padding: 2%;
-    color: #8FBC8F;
+    color: #a41623;
 }
 
 ul#inner-footer {

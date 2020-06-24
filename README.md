@@ -4,7 +4,7 @@ This project is is to create a website for the Luitpold park in Munich. The webs
 It also contains a list of all popular activities and beer gardens in the park. Last but not least, the website has a gallery page included, showcasing all beauties of the park in different seasons. 
 
 
-### UX
+## UX
 
 The project was designed to promote the Luitpold park, to tourists and the locals alike. Throughout the site we have a visible navbar with it pages clearly marked, which enables the visitors to chose straight away what they're interested in, without having to go trough all the pages.
 A lot of tourists love to visit historical marks when in a foreign city. That's why our website includes a short but powerful story of the park, with instructions of how to get to the park. 
@@ -15,16 +15,16 @@ The Gallery page serves as an inspiration to the tourists to come and visit the 
 The website also contains social media links to facebook, youtube and instagram, where the visitors can further research all the park's amenities. 
 
 
-#### User Stories
+### User Stories
 
-##### Munich residents
+#### Munich residents
 
 - as a website visitor and a resident of Munich, I want to have all possible park's activities listed on one spot.
 - as a website visitor and a resident of Munich, I want to be able to easily find a local beer garden's opening hours and a phone number.
 - as a website visitor and a resident of Munich, I like to be reminded of all the posibilities that the park is offering.
 
 
-##### tourists
+#### tourists
 
 - as a tourist, I want to read about interesting history of the park I'm visiting.
 - as a tourist, I want to see what the park looks like at a different time of a year.
@@ -36,12 +36,12 @@ The website also contains social media links to facebook, youtube and instagram,
 
 ### Site Maps
 
-!.[desktop_and_mobile_view_index.html].(/assets/img/wireframes/index.pdf "index.html page for desktop and mobile view")
+- The wireframes are included in a separate folder. Please see wireframes folder for the entire collection of wireframes.
 
 
 ### Features
 
-##### Existing Features
+#### Existing Features
 
 1. The top fixed navbar enables the user to go to a different page with one click.
 2. The active navbar enables the user to always know at which page he is at the moment. 
@@ -50,7 +50,7 @@ The website also contains social media links to facebook, youtube and instagram,
 5. The beer_gardens.html cards allow user to see the local beer garden's working hours and phone number. 
 
 
-##### Features Left To Be Implemented
+#### Features Left To Be Implemented
 
 1. Map of the city, marking where the park is.
 2. Map of the park, pointing out beer gardens and all the activities.
@@ -59,7 +59,7 @@ The website also contains social media links to facebook, youtube and instagram,
 5. Merchandise page with an online store.
 6. A list of annual events in the park.
 
-### Technologies Used 
+## Technologies Used 
 
 - HTML - has been used to give instructions to the browser on how to arrange the layout and interprit the code correctly.
 -CSS - has been used to style and theme the website.
@@ -72,21 +72,21 @@ The website also contains social media links to facebook, youtube and instagram,
 
 To ensure that the website doesn't have any bugs or layout issues and that all the links and media are working, we ran following tests:
 
-##### Page Links
+#### Page Links
 
 - when on index.html - click on Activities Link to verify it brings me to the Activities page.
 - when on activities.html - click on Beer Gardens link to verify it brings me to the Beer Gardens page.
 - when on beer_gardens.html - click on Gallery link to verify it brings me to the Gallery page. 
 - when on gallery.html - click on Home link to verify it brings me to the Home page. 
 
-##### Social media
+#### Social media
 
 -click on Facebook icon in Footer and verify that the correct page opens in a new tab.
 -click on YouTube icon in Footer and verify that the correct page opens in a new tab.
 -click on Instagram icon in Footer and verify that the correct page opens in a new tab.
 
 
-##### Videos
+#### Videos
 
 - click on the play button and verify that the video plays.
 - click on the pause button and verify that the video pauses.
@@ -96,7 +96,7 @@ To ensure that the website doesn't have any bugs or layout issues and that all t
 - make the video full screen and then back to regular size and verify that there are no issues.
 
 
-##### Responsivness
+#### Responsivness
 
 - view site on "Galaxy S5" sizeand verify that there are no viewing issues
 - view site on "iPhone 5/SE" size and verify that there are no viewing issues
@@ -110,14 +110,14 @@ To ensure that the website doesn't have any bugs or layout issues and that all t
 The website scales correctly on all screen sizes. The navbar is desgined to toggle when on mobile view, so to not take up too much of the screen real estate.
 
 
-##### bugs
+#### bugs
 
 During the development phase we've met with a range of layout issues, media not being uploaded correctly, etc. However, these all have been worked at and fixed. 
 To the best of my knowledge, there are no known issues in the final product. A small exception would be one of the pictures on activities.html not being the same size as the rest of the pictures on the page.
 
 
 
-### Deployment
+## Deployment
 
 This project was deployed to GitHub Pages at the address https://amikic33.github.io/Luitpoldpark/. in following steps:
 
@@ -133,23 +133,23 @@ This project was deployed to GitHub Pages at the address https://amikic33.github
 
 
 
-### Credits
+## Credits
 
-##### Content
+#### Content
 
 - the text on index.html gotten from https://en.wikipedia.org/wiki/Luitpoldpark
 - the text on beer_gardens.html gotten from http://www.zum-brunnergarten.de/contact.php
 - icons imported from Font Awesome
 - the idea for the slider gotten from a tutorial by w3newbie: https://www.youtube.com/watch?v=qDww4CbxtD4
 
-##### Media
+#### Media
 
 - the media on beer_gardens.html gotten from https://www.youtube.com/embed/KowIxNbMdCg
 
 - summer.jpg gotten from https://de.wikipedia.org/wiki/Datei:Luitpoldpark_Muenchen_2.jpg 
 - autumn.jpg gotten from https://www.augsburger-allgemeine.de/schwabmuenchen/a-6-jpg-id40398007.html?aid=40398017 
 - winter.jpg gotten from https://reise-zikaden.de/wp-content/uploads/2019/01/englischergarten_winter_monopteros_pixabay.jpg 
-- spring.jpg gotten from tps://img.theculturetrip.com/1440x960/smart/wp-content/uploads/2020/02/kg5g25.jpg 
+- spring.jpg gotten from https://img.theculturetrip.com/1440x960/smart/wp-content/uploads/2020/02/kg5g25.jpg 
 
 -running.jpg gotten from https://thumbs.dreamstime.com/b/giovane-donna-di-bellezza-con-le-cuffie-che-corre-nel-parco93787649.jpg 
 - swimming.jpg gotten from https://cdn.foravisit.com/_munich/_/100380/i/w2000/Bad-Georgenschwaige-Schwimmbecken-FotoSWM.jpg 
@@ -184,7 +184,7 @@ This project was deployed to GitHub Pages at the address https://amikic33.github
 - photo16.jpg gotten from https://www.muc.tips/media/k2/items/cache/bf337492a0864d5a8d1619941820aa93_L.jpg 
 
 
-##### Acknowledgements
+## Acknowledgements
 
 - I would like to acknowledge my mentor Reuben Ferrante, for all the help and support on this project.
 - I would like to thank my friend and fellow Code Institute student, Aidan Stritch, for all of his help and support.
