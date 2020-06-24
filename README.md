@@ -107,8 +107,86 @@ To ensure that the website doesn't have any bugs or layout issues and that all t
 - view site on "iPad Pro" sizeand verify that there are no viewing issues
 - view site on "desktop" and verify that there are no viewing issues
 
+The website scales correctly on all screen sizes. The navbar is desgined to toggle when on mobile view, so to not take up too much of the screen real estate.
+
+
+##### bugs
+
+During the development phase we've met with a range of layout issues, media not being uploaded correctly, etc. However, these all have been worked at and fixed. 
+To the best of my knowledge, there are no known issues in the final product. A small exception would be one of the pictures on activities.html not being the same size as the rest of the pictures on the page.
+
+
+
+### Deployment
+
+This project was deployed to GitHub Pages at the address https://amikic33.github.io/Luitpoldpark/. in following steps:
+
+- I have used following commands to commit and push the code on Gitpod to GitHub:
+    - git add .
+    - git commit -m "description"
+    - git push
+
+- go to repository settings
+- scroll down to GitHub Pages and change the branch to Master branch
+- check the status frequently to make sure the website has been published
 
 
 
 
+### Credits
 
+##### Content
+
+- the text on index.html gotten from https://en.wikipedia.org/wiki/Luitpoldpark
+- the text on beer_gardens.html gotten from http://www.zum-brunnergarten.de/contact.php
+- icons imported from Font Awesome
+- the idea for the slider gotten from a tutorial by w3newbie: https://www.youtube.com/watch?v=qDww4CbxtD4
+
+##### Media
+
+- the media on beer_gardens.html gotten from https://www.youtube.com/embed/KowIxNbMdCg
+
+- summer.jpg gotten from https://de.wikipedia.org/wiki/Datei:Luitpoldpark_Muenchen_2.jpg 
+- autumn.jpg gotten from https://www.augsburger-allgemeine.de/schwabmuenchen/a-6-jpg-id40398007.html?aid=40398017 
+- winter.jpg gotten from https://reise-zikaden.de/wp-content/uploads/2019/01/englischergarten_winter_monopteros_pixabay.jpg 
+- spring.jpg gotten from tps://img.theculturetrip.com/1440x960/smart/wp-content/uploads/2020/02/kg5g25.jpg 
+
+-running.jpg gotten from https://thumbs.dreamstime.com/b/giovane-donna-di-bellezza-con-le-cuffie-che-corre-nel-parco93787649.jpg 
+- swimming.jpg gotten from https://cdn.foravisit.com/_munich/_/100380/i/w2000/Bad-Georgenschwaige-Schwimmbecken-FotoSWM.jpg 
+- football.jpg gotten from https://www.centralpark.com/downloads/8592/download/soccer.jpg?cb=f2dc96ed3674c8d1772990a3 4239bfdd&w=1024&h= 
+- badminton.jpg gotten from http://www.esv-gerolstein.de/index.php/sportangebote/badminton 
+- dog_walk.jpg gotten from https://c.stocksy.com/a/pQ9500/z9/1227899.jpg 
+- table_tennis.jpg gotten from https://www.flickr.com/photos/14646075@N03/10480298304
+- sledding.jpg gotten from https://cdn.muenchenp.de/.imaging/stk/responsive/image300/dms/th/bg/winter_weihnachten/bildergalerien/schlittenberge/ luitpoldpark/Luitpold1/document/Luitpold1.jpg 
+- birdwatching.jpg gotten from https://theecotrek.com/wp-content/uploads/2020/03/Birdwatching.jpg 
+- bicycling.jpg gotten from https://www.abendzeitung-muenchen.de/media.media.527f77cf-a18e-489a-8b598f2900678026.original1024.jpg 
+- sunbathing.jpg gotten from https://www.badkissingen.de/media/www.badkissingen.de/thm/med_31303/101184_aktivitaeten_gru enanlagen_klanggarten_--bayer.-staatsbad-bad-kissingen-gmbh.jpg 
+- picnic.jpg gotten from https://muenchen.mitvergnuegen.com/wp-content/uploads/sites/3/2017/03/fullsizerender-15-2600x338.jpg 
+- basketball.jpg https://cdn.muenchen-p.de/.imaging/stk/responsive/image300/dms/fg/bg/outdoor-games-inmuenchen/outdoor_games09/document/outdoor_games09.jpg 
+
+- photo1.jpg gotten from https://img.theculturetrip.com/1024x574/smart/wp-content/uploads/2020/02/j68x1f.jpg 
+- photo12.jpg gotten from https://images-production.gardenvisit.com/uploads/images/13879/luitpoldpark_original.jpg 
+- photo20.jpg gotten from https://www.themunichtimes.com/wp-content/uploads/2018/10/herbstwanderungen-muenchenenglischer-garten-laub.jpg  
+- photo19.jpg gotten from https://farm4.staticflickr.com/3152/3059835376_1899993dbf.jpg 
+- photo17.jpg gotten from https://static.geo.de/bilder/ff/78/82331/mobile_feed_original480/06-luitpoldpark-muenchen-m08997987.jpg  
+- photo77.jpg gotten from https://www.diehoflieferanten.de/site/assets/files/1103/hochzeit_3_0x1034.1400x0.jpg 
+- photo3.jpg gotten from https://cdn.muenchen-p.de/.imaging/stk/responsive/image300/dms/sw2018/mde/luitpoldpark/luitpoldpark-sommer1/document/luitpoldpark-sommer1.jpg 
+- photo4.jpg gotten from https://www.trfihi-parks.com/images/parks/HAWtgd_1558116889_ly.jpg 
+- photo6.jpg gotten from https://www.trfihi-parks.com/images/parks/d5w89L_1558116889_LYYY.jpg 
+- photo11.jpg gotten from https://s3-media0.fl.yelpcdn.com/bphoto/uhZu5NaBZL5xmIIuklNF7w/o.jpg 
+- photo15.jpg gotten from https://cdn.muenchenp.de/.imaging/stk/responsive/image300/dms/sw/bg/gaerten_parks_und_friedhoefe/luitpoldpark/03luitpoldpark/document/03-luitpoldpark.jpg 
+- photo33.jpg gotten from https://www.abendzeitung-muenchen.de/media.media.147b15ac-436f-4f5b-8ecf64e2fc227e67.original1024.jpg 
+- photo5.jpg gotten from https://images.portal.muenchen.de/upload/media/000/000/218/178/resized/0750x0310/luitpoldparksommer750.jpg 
+- photo8.jpg gotten from https://secretescapesweb.imgix.net/sales/39174/b98ecd64_47e8_47da_996b_e6b34b186e29.jpg?auto=format,compress 
+- photo9.jpg gotten from https://www.trfihi-parks.com/images/parks/cWIF43_1558116996_LYYYYYYYYYYYY.jpg 
+- photo10.jpg gotten from https://i.pinimg.com/564x/f6/5d/99/f65d9966899675a279249c76fec652b6.jpg 
+- photo24.jpg gotten from https://lh3.googleusercontent.com/md85kFkpSARIBtZD3UoLvDChWSfMWkutph93YVaJ3mQzjZ58RPkY6FISh8ecMM3nKM8=s128 
+- photo16.jpg gotten from https://www.muc.tips/media/k2/items/cache/bf337492a0864d5a8d1619941820aa93_L.jpg 
+
+
+##### Acknowledgements
+
+- I would like to acknowledge my mentor Reuben Ferrante, for all the help and support on this project.
+- I would like to thank my friend and fellow Code Institute student, Aidan Stritch, for all of his help and support.
+- I would like to thank the tutors, especially Tim, for all of their help and support.
+- I would also like to thank my friends and family for all of their support.
