@@ -24,7 +24,7 @@ The website also contains social media links to facebook, youtube and instagram,
 - as a website visitor and a resident of Munich, I like to be reminded of all the posibilities that the park is offering.
 
 
-#### tourists
+#### Tourists
 
 - as a tourist, I want to read about interesting history of the park I'm visiting.
 - as a tourist, I want to see what the park looks like at a different time of a year.
@@ -36,7 +36,8 @@ The website also contains social media links to facebook, youtube and instagram,
 
 ### Site Maps
 
-- The wireframes are included in a separate folder. Please see wireframes folder for the entire collection of wireframes.
+- The wireframes are included in a separate folder. Please use the following link to access the entire wireframe collection:
+https://github.com/AMikic33/Luitpoldpark/tree/master/wireframes
 
 
 ### Features
@@ -79,7 +80,7 @@ To ensure that the website doesn't have any bugs or layout issues and that all t
 - when on beer_gardens.html - click on Gallery link to verify it brings me to the Gallery page. 
 - when on gallery.html - click on Home link to verify it brings me to the Home page. 
 
-#### Social media
+#### Social Media
 
 -click on Facebook icon in Footer and verify that the correct page opens in a new tab.
 -click on YouTube icon in Footer and verify that the correct page opens in a new tab.
@@ -110,7 +111,7 @@ To ensure that the website doesn't have any bugs or layout issues and that all t
 The website scales correctly on all screen sizes. The navbar is desgined to toggle when on mobile view, so to not take up too much of the screen real estate.
 
 
-#### bugs
+#### Bugs
 
 During the development phase we've met with a range of layout issues, media not being uploaded correctly, etc. However, these all have been worked at and fixed. 
 To the best of my knowledge, there are no known issues in the final product. A small exception would be one of the pictures on activities.html not being the same size as the rest of the pictures on the page.
